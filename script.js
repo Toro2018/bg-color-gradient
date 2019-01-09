@@ -8,7 +8,7 @@ var button=document.querySelector("button");
 
 function setGradient(){
 	body.style.background = "linear-gradient( to right," + color1.value + "," + color2.value + " )";
-	css.textContent = body.style.background+"!"
+	css.textContent = body.style.background;
 }
 
 function setGradientRandom(){
